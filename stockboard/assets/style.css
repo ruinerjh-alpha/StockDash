@@ -1,0 +1,94 @@
+/* StockBoard custom styles */
+body {
+    background-color: #0f0f1a;
+    color: #e0e0e0;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Navbar */
+.navbar-brand { letter-spacing: 0.05em; }
+
+/* Cards */
+.card {
+    background-color: #1e1e30 !important;
+    border: 1px solid #2a2a45 !important;
+}
+.card-header {
+    background-color: #16213e !important;
+    border-bottom: 1px solid #2a2a45 !important;
+}
+
+/* Tables */
+.table-dark th { background-color: #12122a !important; }
+.table-dark td { border-color: #2a2a45 !important; }
+.table-hover tbody tr:hover { background-color: #252540 !important; }
+
+/* Positive / Negative colors */
+.text-pos  { color: #26de81 !important; font-weight: 600; }
+.text-neg  { color: #fc5c65 !important; font-weight: 600; }
+.text-neu  { color: #a0a0c0 !important; }
+
+/* Badges */
+.signal-badge { font-size: 0.72rem; margin: 1px 2px; }
+
+/* Modals */
+.modal-content {
+    background-color: #1e1e30 !important;
+    border: 1px solid #3a3a60 !important;
+}
+.modal-header { border-bottom: 1px solid #3a3a60 !important; }
+.modal-footer { border-top:    1px solid #3a3a60 !important; }
+
+/* Inputs */
+.form-control, .form-select {
+    background-color: #12122a !important;
+    color: #e0e0e0 !important;
+    border-color: #3a3a60 !important;
+}
+.form-control:focus, .form-select:focus {
+    border-color: #6c63ff !important;
+    box-shadow: 0 0 0 0.2rem rgba(108,99,255,0.3) !important;
+}
+
+/* Tabs */
+.nav-tabs .nav-link {
+    color: #a0a0c0;
+    border-color: transparent;
+}
+.nav-tabs .nav-link.active {
+    background-color: #6c63ff !important;
+    border-color: #6c63ff !important;
+    color: #fff !important;
+}
+
+/* Chart container */
+.chart-container { border-radius: 8px; overflow: hidden; }
+
+/* Ticker link */
+.ticker-link {
+    color: #7ecfff;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 0.95rem;
+}
+.ticker-link:hover { color: #a0dfff; text-decoration: underline; }
+
+/* Action buttons */
+.btn-action { padding: 2px 8px; font-size: 0.78rem; }
+
+/* Page title */
+.page-title { color: #a0a0ff; font-weight: 700; margin-bottom: 1rem; }
+
+/* Toast */
+.dash-toast { z-index: 9999 !important; }
+
+/* Stat card */
+.stat-card {
+    background: linear-gradient(135deg, #1e1e40 0%, #12122a 100%);
+    border-radius: 10px;
+    padding: 16px;
+    border: 1px solid #2a2a55;
+    text-align: center;
+}
+.stat-label { font-size: 0.8rem; color: #7070a0; margin-bottom: 4px; }
+.stat-value { font-size: 1.3rem; font-weight: 700; }

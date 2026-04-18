@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Database (local data — do not commit)
+stockboard/stockboard.db
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude Code
+.claude/
+
+# Logs
+*.log
